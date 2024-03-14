@@ -18,3 +18,15 @@ static double GetAvrage(int[] numbers)
 int [] numbers = {1,2,3,4};
 double avrage = GetAvrage(numbers);
 Console.WriteLine(avrage);
+
+static double GetMax(int[] numbers)
+{
+    int number = 0;
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        if (number<i)
+        {
+            number = i;
+        }
+    }
+}
